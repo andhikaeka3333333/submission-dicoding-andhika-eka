@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Bookshelf Andhika</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Bookshelf Andhika</h1>
+      <input type="text" id="searchInput" placeholder="Cari Judul..." />
+    </header>
+    <main>
+      </section>  
+
+      <img id="imgtambahbuku" src="img/orangmembacabuku.png" alt="orangmembacabuku" width="350px">
+      <section class="add-book-section">
+        <h2>Tambah Buku</h2>
+        <form id="addBookForm">
+          <input type="text" id="title" placeholder="Judul Buku" required />
+          <input type="text" id="author" placeholder="Penulis" required />
+          <input type="number" id="year" placeholder="Tahun" required />
+          <div>
+            <label>Sudah selesai dibaca?</label>
+            <input type="checkbox" id="isComplete" />
+          </div>
+          <button type="submit">Tambah</button>
+        </form>
+      </section>
+
+      <h1>Rak Buku 📚</h1>
+
+      <section class="bookshelf-section">
+        <div id="uncompletedBookshelfList" class="book-list">
+          <h2>Belum Selesai Dibaca</h2>
+        </div>
+        <div id="completedBookshelfList" class="book-list">
+          <h2>Selesai Dibaca</h2>
+        </div>
+      </section>
+
+      <section id="profil">
+        <center><img id="fotodev" src="img/andhikaekasantosa.jpg" alt="Andhika Eka Santosa" width="200px"></center>
+        <h1>Profil Developer</h1>
+        <h4>Nama : Andhika Eka Santosa</h4>
+        <h4>Umur : 15 Tahun</h4>
+        <h4>Hobi : Programming</h4>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+
+  <footer>
+    <p>&copy Copyright by Andhika Eka Santosa 2024</p>
+  </footer>
+</html>

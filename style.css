@@ -1,0 +1,168 @@
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    background: linear-gradient(0deg, rgba(241,237,237,1) 49%, rgba(226,254,252,1) 100%);
+    overflow-x: hidden;
+    
+}
+
+header {
+    font-family: "Inter", sans-serif;
+    background-color: #d7e5e4;
+    padding: 10px 20px; 
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    
+}
+
+#imgtambahbuku {
+    filter: drop-shadow(8px 8px 10px gray);
+}
+
+#title {
+    padding: 8px;
+    border: 2px solid #c2ccd7;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#searchInput {
+    padding: 8px;
+    border: 2px solid #c2ccd7;
+    border-radius: 4px;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+#isComplete {
+    margin-bottom: 10px;
+}
+
+#author {
+    padding: 8px;
+    border: 2px solid #c2ccd7;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#year {
+    padding: 8px;
+    border: 2px solid #c2ccd7;
+    border-radius: 4px;
+    width: 20%;
+    box-sizing: border-box;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-book-section {
+    margin-bottom: 20px;
+    width: 30%;
+    background-color: #cfdce3;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+.add-book-section input {
+    margin-top: 10px;
+}
+
+.bookshelf-section {
+    width: 80%;
+    display: flex;
+}
+
+.book-list{
+    margin-right: 20px;
+}
+
+.book-list {
+    border-radius: 20px;
+    width: 48%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #76a8e9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.actions button {
+    margin-right: 10px;
+}
+
+#profil {
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#fotodev {
+    border-radius: 100%;
+}
+
+footer {
+    padding: 18px;
+    background-color: #c2ccd7;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 750px) {
+    header {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    #searchInput {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    main {
+      width: 100%;
+    }
+  
+    .add-book-section {
+      width: 70%;
+    }
+  
+    .bookshelf-section {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .book-list {
+      width: 100%;
+      margin-right: 0;
+    }
+  
+    #year {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  
